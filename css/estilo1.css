@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+  padding: 16px;
+}
+
+#contenedor {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: red;
+  border: 2px solid black;
+  padding: 16px;
+}
+
+.encabezado {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.encabezado h1 {
+  color: white;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding: 6px 12px;
+}
+
+.menu a:hover {
+  background-color: black;
+  color: white;
+}
+
+.contenido {
+  padding: 12px 0;
+  color: white;
+}
+
+.contenido h2,
+.contenido h3 {
+  margin: 12px 0 8px;
+  color: yellow;
+}
+
+.contenido ul {
+  margin-left: 22px;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+  margin-top: 8px;
+}
+
+.tabla th,
+.tabla td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.galeria-bienvenida {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.galeria-bienvenida img {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.maqueta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 10px;
+  color: black;
+}
+
+.bloque-historia {
+  flex: 1 1 280px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 12px;
+}
+
+.bloque-historia img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.grid-personajes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 12px;
+  color: black;
+}
+
+.tarjeta-personaje {
+  flex: 1 1 220px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.tarjeta-personaje img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border: 1px solid black;
+  margin-bottom: 8px;
+}
+
+.btn-personaje {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: navy;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-personaje:hover {
+  background-color: black;
+}
+
+.caja-descripcion {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.imagen-regalo {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid black;
+  margin-bottom: 12px;
+}
+
+.formulario-regalo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.formulario-regalo input {
+  padding: 6px 10px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+.formulario-regalo button,
+.item-regalo button,
+.caja-carrito button {
+  padding: 6px 10px;
+  background-color: navy;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.lista-regalos {
+  list-style: none;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.item-regalo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.regalo-listo {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.grid-comida {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 10px;
+  color: black;
+}
+
+.tarjeta-comida {
+  flex: 1 1 220px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.tarjeta-comida img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid black;
+  margin-bottom: 8px;
+}
+
+.btn-comprar {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.caja-carrito {
+  margin-top: 18px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 12px;
+}
+
+#lista-carrito {
+  margin: 10px 0 10px 20px;
+}
+
+#total-carrito {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: navy;
+}
+
+.pie {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid white;
+  font-weight: bold;
+  color: white;
+}

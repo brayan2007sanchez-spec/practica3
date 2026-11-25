@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navidad - Personajes</title>
+  <link rel="stylesheet" href="../css/estilo1.css">
+</head>
+<body>
+  <div id="contenedor">
+    <header class="encabezado">
+      <h1>Navidad</h1>
+      <nav class="menu">
+        <a href="../index.html">bienvenida</a>
+        <a href="historia.html">historia</a>
+        <a href="personajes.html">personajes</a>
+        <a href="regalos.html">Regalos</a>
+        <a href="comida.html">Comida</a>
+      </nav>
+    </header>
+
+    <main class="contenido">
+      <h2>Personajes navideños</h2>
+
+      <div class="grid-personajes">
+        <div class="tarjeta-personaje">
+          <img src="../img/papa noel.avif" alt="Papá Noel">
+          <h3>Papá Noel</h3>
+          <button type="button" class="btn-personaje" data-personaje="noel">Ver descripción</button>
+        </div>
+
+        <div class="tarjeta-personaje">
+          <img src="../img/rodolfo.jpg" alt="Rodolfo el reno">
+          <h3>Rodolfo el reno</h3>
+          <button type="button" class="btn-personaje" data-personaje="rodolfo">Ver descripción</button>
+        </div>
+
+        <div class="tarjeta-personaje">
+          <img src="../img/grinch.webp" alt="El Grinch">
+          <h3>El Grinch</h3>
+          <button type="button" class="btn-personaje" data-personaje="grinch">Ver descripción</button>
+        </div>
+      </div>
+
+      <div id="descripcion-personaje" class="caja-descripcion">
+        Haz clic en el botón de un personaje para ver su descripción.
+      </div>
+    </main>
+
+    <footer class="pie">
+      <p>diseñado por: Brayan Sanchez Aguilar</p>
+    </footer>
+  </div>
+
+  <script src="../jv/persoanjes.js"></script>
+</body>
+</html>
